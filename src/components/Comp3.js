@@ -40,7 +40,7 @@ const Comp3 = () => {
     <Stack sx={{padding:'15px',gap:2,justifyContent:'center'}}   justifyContent="center">
         <Grid container spacing={2} >
     
-         <Grid item xs={6} md={4} >
+         <Grid item xs={12} md={4} >
           <Item sx={{ overflow: 'scroll' }}> 
             <Box >
              <Box >
@@ -85,7 +85,6 @@ const Comp3 = () => {
 
                <Typography variant='body1' sx={{fontWeight:'semibold'}}>Time line  </Typography>
                 
-               
                <IconButton aria-label="delete" size="small">
                  <TextsmsIcon fontSize="inherit" />
                 <Typography variant='body1' sx={{fontWeight:'semibold'}}>AI Assessment </Typography>
@@ -111,13 +110,13 @@ const Comp3 = () => {
           </Item>
          </Grid>
          
-         <Grid item xs={6} md={4} >
+         <Grid item xs={12} md={4} >
          <Item>
             <img alt='img' src='https://techwiser.com/wp-content/uploads/2018/10/Make-Video-Calls-From-Android-to-iOS-3.png' width='100%' height='100%'/>
          </Item>
         </Grid>
 
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item sx={{ overflow: 'scroll' }}>
             <Box>
                 <Box>
@@ -150,12 +149,12 @@ const Comp3 = () => {
     </TableContainer>
 
 
-                </Box>
-            </Box>
-          </Item>
-        </Grid>
+         </Box>
+       </Box>
+     </Item>
+    </Grid>
 
-        <Grid item xs={6} md={4} >
+        <Grid item xs={12} md={4} >
           <Item sx={{ overflow: 'scroll' }}>
           <Typography variant='h6' sx={{fontWeight:'bold'}}>Digital twin </Typography>
 
@@ -224,7 +223,7 @@ const Comp3 = () => {
           </Item>
          </Grid>
          
-         <Grid item xs={6} md={4} >
+         <Grid item xs={12} md={4} >
          <Item>
          <Typography variant='h6' sx={{fontWeight:'bold'}}>Live Posssible causes</Typography>
          <Box>
@@ -249,7 +248,7 @@ const Comp3 = () => {
          </Item>
         </Grid>
 
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item sx={{ overflow: 'scroll' }}>
             <Stack direction="row" justifyContent='space-between' > 
                 <Todo/>
