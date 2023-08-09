@@ -2,7 +2,7 @@ import React from 'react';
 //import { Typography } from '@mui/material';
 import Navbar2 from './components/Navbar2';
 import Navbar from './components/Navbar';
-import Comp3 from './components/Comp3';
+import Comp0mn from './components/Comp0mn';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Navbar2/>
-      <Comp3/>
+      <Comp0mn/>
     
     </div>
   );
