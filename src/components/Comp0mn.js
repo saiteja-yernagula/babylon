@@ -1,17 +1,17 @@
 import React from 'react';
+import { Paper,Grid,Stack} from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { Stack,Paper,Grid } from '@mui/material';
 
 import 'animate.css/animate.min.css';
 import './YourComponent.css';
 
 
-import Comp5 from './Comp5';
-import Comp6 from './Comp6';
-import Comp4 from './Comp4';
-import Comp33 from './Comp3';
-import Comp2 from './Comp2';
 import Comp1 from './Comp1';
+import Comp2 from './Comp2';
+import Comp3 from './Comp3';
+import Comp4 from './Comp4';
+import Comp5 from './Comp5';
+import ChatApp from './ChatApp';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -26,11 +26,9 @@ const Item = styled(Paper)(({ theme }) => ({
   
  
 
-
-
 const Comp0mn = () => {
   return (
-    <Stack sx={{padding:'15px',gap:2,justifyContent:'center'}}   justifyContent="center">
+    <Stack sx={{padding:'15px',gap:2,justifyContent:'center'}} justifyContent="center">
         <Grid container spacing={2} >
 
          <Grid item xs={12} md={4} className='animate__zoomIn animate__animated my-element '>
@@ -47,7 +45,7 @@ const Comp0mn = () => {
     
         <Grid item xs={12} md={4} className='animate__zoomIn animate__animated my-element '>
          <Item sx={{ overflow: 'scroll' }}>
-            <Comp33/>
+            <Comp3/>
          </Item>
         </Grid>
 
@@ -65,7 +63,7 @@ const Comp0mn = () => {
 
         <Grid item xs={12} md={4} className='animate__zoomIn animate__animated my-element animate__delay-1s'>
           <Item sx={{ overflow: 'scroll' }}>
-           <Comp6/>
+           <ChatApp/>
           </Item>
         </Grid>
          

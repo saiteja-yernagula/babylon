@@ -1,0 +1,47 @@
+.ChatApp {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    background-color: #f1f0f0;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 4px;
+    max-width: 70%;
+  }
+  
+  .user {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
