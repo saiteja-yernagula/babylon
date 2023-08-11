@@ -1,17 +1,18 @@
 import React from 'react';
-//import { Typography } from '@mui/material';
-import Navbar2 from './components/Navbar2';
-import Navbar from './components/Navbar';
-import Comp0mn from './components/Comp0mn';
+import App2 from './MainComponets/App2';
+import App1 from './MainComponets/App1';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Navbar2/>
-      <Comp0mn/>
-    
+      <BrowserRouter>
+       <Routes>
+        <Route path='/' element={<App1/>}/>
+        <Route path='/babylon' element={<App2/>}/>
+       </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.mn1{
+    background: white;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+  .wrapper {
+    background: url('https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/aoddiqgkyiwffnm2yi5c') center no-repeat;
+    background-size:80%;
+  }
+  
+ 
+
+  .anime{
+    background-color: rgb(28, 127, 233);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out
+  }
+  
+  @keyframes example {
+    0%   {background-color: rgb(249, 16, 191);}
+    25%  {background-color: rgb(224, 159, 19);}
+    50%  {background-color: rgb(49, 49, 225);}
+    100% {background-color: rgb(217, 28, 242);}
+  }
+  
+ 
+  
+
+
+
+  
+  
+  
